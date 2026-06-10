@@ -23,8 +23,8 @@ Full lesson-01 greeting exchange at natural speed, both genders.
 |---|---|---|
 | ع (3) | tight throat, voiced — NOT a vowel | 3am (uncle/doing) vs. am; sa3a (hour) vs. saa |
 | ح (7) | breathy h, like fogging a mirror hard | 7ar (hot) vs. har; mni7 |
-| خ (kh) | German **ch in „Bach"** — you have this! | khalas, khebez |
-| غ (gh) | German **r in „Rede"** (uvular) — you have this too | ghali, shoghol |
+| خ (kh) | German **ch in "Bach"** — you have this! | khalas, khebez |
+| غ (gh) | German **r in "Rede"** (uvular) — you have this too | ghali, shoghol |
 | ق → 2 | glottal stop, like German „be**'**achten" | 2alb, 2ahwé, ba2a |
 | imala é | long e like „**See**", where MSA has a/é | bét (house), lebnéné, ktéb |
 
@@ -37,12 +37,12 @@ Full lesson-01 greeting exchange at natural speed, both genders.
 
 | | Arabic | Translit | Deutsch | English |
 |---|---|---|---|---|
-| Colleague | تفضّل. | tfaddal. | Bitte sehr. | Here you go. |
-| Daniel | ميرسي كتير! | mérsi ktir! | Vielen Dank! | Thanks a lot! |
-| Colleague | ولو، ما في شي. | walaw, ma fi shé. | Aber bitte, keine Ursache. | Come on, it's nothing. |
-| Daniel | عن إذنك، وين الحمّام؟ | 3an iznak, wén l7ammém? | Entschuldigung, wo ist die Toilette? | Excuse me, where's the bathroom? |
-| Colleague | آخر الممر عاليمين. | ékher lmamarr 3al-yamin. | Am Ende des Flurs rechts. | End of the hallway on the right. |
-| Daniel | يسلمو! | yeslamo! | Danke dir! | Thanks! |
+| Colleague | تفضّل | tfaddal. | Bitte sehr. | Here you go. |
+| Daniel | ميرسي كتير | mérsi ktir! | Vielen Dank! | Thanks a lot! |
+| Colleague | !ولو  | walaw | Aber bitte | Come on. |
+| Daniel | بعد إذنك، وين الحمّام؟ | 3 an iznak, wén l7ammém? | Entschuldigung, wo ist die Toilette? | Excuse me, where's the bathroom? |
+| Colleague | آخر الممر عاليمين | ékher lmamarr 3al-yamin. | Am Ende des Flurs rechts. | End of the hallway on the right. |
+| Daniel | !يسلمو | yeslamo! | Danke dir! | Thanks! |
 
 ## Vocabulary
 
@@ -53,8 +53,7 @@ Full lesson-01 greeting exchange at natural speed, both genders.
 | شكرا | shukran | danke | thank you | TODO |
 | يسلمو | yeslamo | danke (warm) | thanks (warm) | TODO |
 | ولو | walaw | aber bitte! | come on / don't mention it | TODO |
-| ما في شي | ma fi shé | keine Ursache / nichts | it's nothing | TODO |
-| عن إذنك | 3an iznak/iznik | Entschuldigung (m/f) | excuse me | TODO |
+| بعد إذنك | 3an iznak/iznik | Entschuldigung (m/f) | excuse me | TODO |
 | سوري | soré | sorry | sorry | TODO |
 | معليش | ma3lésh | macht nichts | it's okay / never mind | TODO |
 | الله يسلمك | alla yeslamak | Antwort auf yeslamo | reply to yeslamo | TODO |
