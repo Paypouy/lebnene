@@ -50,6 +50,9 @@ jobs:
           mkdir -p /tmp/quartz/content
           rsync -a --exclude='.git' --exclude='.github' --exclude='decks' \
                 --exclude='scripts' --exclude='audio' ./ /tmp/quartz/content/
+          # Copy user-level Quartz customisations (e.g. .quartz/plugins.ts)
+          # into the Quartz installation root so esbuild can resolve them.
+          rsync -a .quartz/ /tmp/quartz/.quartz/
           cd /tmp/quartz && npx quartz build
       - uses: actions/upload-pages-artifact@v3
         with:
