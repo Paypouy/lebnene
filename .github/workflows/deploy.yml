@@ -1,0 +1,66 @@
+name: Build site & decks
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  decks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install genanki
+      - run: python scripts/extract_vocab.py
+      - run: python scripts/build_decks.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: anki-decks
+          path: decks/*.apkg
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # Quartz uses git history for "last modified"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Build with Quartz: the vault content is this repo; Quartz is cloned
+      # at build time so the course repo stays pure Markdown.
+      - name: Clone Quartz
+        run: |
+          git clone --depth 1 https://github.com/jackyzha0/quartz.git /tmp/quartz
+          cd /tmp/quartz && npm ci
+      - name: Build site
+        run: |
+          mkdir -p /tmp/quartz/content
+          rsync -a --exclude='.git' --exclude='.github' --exclude='decks' \
+                --exclude='scripts' --exclude='audio' ./ /tmp/quartz/content/
+          cd /tmp/quartz && npx quartz build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/quartz/public
+
+  deploy:
+    needs: site
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

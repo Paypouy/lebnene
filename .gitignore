@@ -1,0 +1,5 @@
+decks/*.csv
+decks/*.apkg
+.obsidian/workspace*
+.DS_Store
+__pycache__/
