@@ -45,6 +45,13 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/jackyzha0/quartz.git /tmp/quartz
           cd /tmp/quartz && npm ci
+      - name: Configure Quartz site metadata
+        run: |
+          REPO="${{ github.repository }}"
+          OWNER="${REPO%%/*}"
+          NAME="${REPO##*/}"
+          sed -i "s/^  pageTitle: .*/  pageTitle: Lebnene/" /tmp/quartz/quartz.config.default.yaml
+          sed -i "s#^  baseUrl: .*#  baseUrl: ${OWNER}.github.io/${NAME}#" /tmp/quartz/quartz.config.default.yaml
       - name: Build site
         run: |
           mkdir -p /tmp/quartz/content
