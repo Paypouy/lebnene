@@ -15,11 +15,13 @@ Run exactly per `assessments/a2-exit-exam.md`. Summary:
 
 | Part | What | Pass bar |
 |---|---|---|
-| 1 | Monologue set #4 (all 4 prompts, recorded) | fluency rubric ≥3/5 each |
+| 1 | Monologue set #4 (all 4 prompts, recorded) | rubric (fluency · comprehensibility · range · accuracy, 1–5): average ≥3.0, no prompt below 2.5 |
 | 2 | Interaction gauntlet: 5 random scenario cards, teacher hostile-mode | 4/5 completed |
 | 3 | Native listening: 2 clips, 5 questions each | 6/10 |
-| 4 | Real-world evidence: the phone-call mission, the shop missions, one expression field report | done & documented |
+| 4 | Real-world evidence: the phone-call mission, ≥3 shop/café/serviis missions, one expression field report | done & documented |
 | 5 | Tense switch drill, 3 minutes | survives |
+
+Overall pass: ≥70% weighted + Parts 2 and 3 individually passed.
 
 ## The ceremony
 Pass → he gets the certificate page (`assessments/certificate.md`), knéfé

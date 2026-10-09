@@ -4,7 +4,7 @@ module: 2
 level: A2
 title: "L-ta2es — Weather & small talk"
 scenario: "Weather as social glue: comment, agree, exaggerate — the Lebanese way."
-grammar: ["adjective agreement & plurals", "exclamations: shu + adj!"]
+grammar: ["adjective agreement & plurals", "exclamations: shu hal- + noun!"]
 vocab_count: 13
 audio: TODO
 ---
@@ -16,8 +16,8 @@ audio: TODO
 | | Arabic | Translit | Deutsch | English |
 |---|---|---|---|---|
 | Rana | شو هالشوب! | shu hal-shob! | Was für eine Hitze! | What heat! |
-| Daniel | والله! أشطر من برلين، بس كتير رطوبة. | walla! ashtar min Berlin, bass ktir rtubé. | Echt! Besser als Berlin, aber sehr schwül. | Really! Better than Berlin, but so humid. |
-| Rana | بالشتي رح تشتي كتير هون. | bil-shté ra7 teshté ktir hon. | Im Winter regnet es hier viel. | In winter it rains a lot here. |
+| Daniel | والله! أحسن من برلين، بس كتير رطوبة. | walla! a7san min Berlin, bass ktir rtubé. | Echt! Besser als Berlin, aber sehr schwül. | Really! Better than Berlin, but so humid. |
+| Rana | بالشتي بتشتي كتير هون. | bil-shté bteshté ktir hon. | Im Winter regnet es hier viel. | In winter it rains a lot here. |
 | Daniel | منيح! بحب الشتي. وفي تلج عالجبل، صح؟ | mni7! b7ebb l-shté. w fi talej 3al-jabal, sa77? | Gut! Ich mag den Regen. Und es gibt Schnee in den Bergen, oder? | Good! I love rain. And there's snow in the mountains, right? |
 | Rana | إي! فيك تتزلج الصبح وتسبح بعد الضهر. | é! fik tetzallaj l-sobe7 w tesba7 ba3ed l-doher. | Ja! Du kannst morgens Ski fahren und nachmittags schwimmen. | Yes! Ski in the morning, swim in the afternoon. |
 | Daniel | هيدا الشي بس بلبنان! | haida l-shé bass b-lebnén! | Das gibt's nur im Libanon! | Only in Lebanon! |
@@ -41,7 +41,7 @@ audio: TODO
 | صح؟ | sa77? | oder? stimmt's? | right? | TODO |
 
 ## Drills
-1. shu + adjective exclamations: shu hal-bared! shu hal-3aj2a! — 6 rounds.
+1. shu hal- + noun exclamations: shu hal-bared! shu hal-3aj2a! — 6 rounds.
 2. Seasons: bil-séf… bil-shté… contrasting sentences.
 3. fik/fiyyé (can): fiyyé esba7, fik tetzallaj? mini-conjugation.
 

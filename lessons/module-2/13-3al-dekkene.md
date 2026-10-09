@@ -16,7 +16,7 @@ audio: TODO
 | | Arabic | Translit | Deutsch | English |
 |---|---|---|---|---|
 | Daniel | مرحبا. عندكن خبز عربي؟ | mar7aba. 3andkon khebez 3arabé? | Hallo. Habt ihr arabisches Brot? | Hi. Do you have Arabic bread? |
-| Shopkeeper | إي طبعًا. شو بدّك كمان؟ | é tab3an. shu baddak kamén? | Ja klar. Was brauchst du noch? | Yes of course. What else? |
+| Shopkeeper | إي طبعًا. شو بدّك كمان؟ | é tab3an. shu baddak kamén? | Ja klar. Was möchtest du noch? | Yes of course. What else? |
 | Daniel | كيلو بندورة، نص كيلو خيار، وشوية جبنة. | kilo banadora, noss kilo khyar, w shwayyet jebné. | Ein Kilo Tomaten, ein halbes Kilo Gurken und etwas Käse. | A kilo of tomatoes, half a kilo of cucumbers, some cheese. |
 | Shopkeeper | في بيض طازة اليوم، بدّك؟ | fi béd taza lyom, baddak? | Es gibt heute frische Eier, willst du? | There are fresh eggs today — want some? |
 | Daniel | إي، دزينة. قدّي صار المجموع؟ | é, dazziné. 2addé sar l-majmou3? | Ja, ein Dutzend. Wie viel macht das? | Yes, a dozen. What's the total? |

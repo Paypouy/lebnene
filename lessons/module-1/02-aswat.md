@@ -5,7 +5,7 @@ level: A1
 title: "Aswat — Pronunciation bootcamp & politeness"
 scenario: "Pronounce ع ح غ خ ق-as-2 acceptably; deploy the politeness formulas that make Lebanese social life run."
 grammar: ["Lebanese vowel shifts: imala (é)", "ق → 2 in urban speech"]
-vocab_count: 14
+vocab_count: 13
 audio: TODO
 ---
 
@@ -21,12 +21,12 @@ Full lesson-01 greeting exchange at natural speed, both genders.
 
 | Sound | Anchor | Minimal pairs to drill |
 |---|---|---|
-| ع (3) | tight throat, voiced — NOT a vowel | 3am (uncle/doing) vs. am; sa3a (hour) vs. saa |
+| ع (3) | tight throat, voiced — NOT a vowel | 3am (uncle/doing) vs. am; sé3a (hour) vs. séa |
 | ح (7) | breathy h, like fogging a mirror hard | 7ar (hot) vs. har; mni7 |
 | خ (kh) | German **ch in "Bach"** — you have this! | khalas, khebez |
 | غ (gh) | German **r in "Rede"** (uvular) — you have this too | ghali, shoghol |
 | ق → 2 | glottal stop, like German „be**'**achten" | 2alb, 2ahwé, ba2a |
-| imala é | long e like „**See**", where MSA has a/é | bét (house), lebnéné, ktéb |
+| imala é | long e like „**See**", where MSA has ā | bét (house), lebnéné, ktéb |
 
 > Teaching note: lean on the German anchors — kh and gh are free wins;
 > spend the time on ع and ح.
@@ -39,10 +39,10 @@ Full lesson-01 greeting exchange at natural speed, both genders.
 |---|---|---|---|---|
 | Colleague | تفضّل | tfaddal. | Bitte sehr. | Here you go. |
 | Daniel | ميرسي كتير | mérsi ktir! | Vielen Dank! | Thanks a lot! |
-| Colleague | !ولو  | walaw | Aber bitte | Come on. |
-| Daniel | بعد إذنك، وين الحمّام؟ | 3 an iznak, wén l7ammém? | Entschuldigung, wo ist die Toilette? | Excuse me, where's the bathroom? |
+| Colleague | ولو! | walaw! | Aber bitte | Come on. |
+| Daniel | عن إذنك، وين الحمّام؟ | 3an iznak, wén l7ammém? | Entschuldigung, wo ist die Toilette? | Excuse me, where's the bathroom? |
 | Colleague | آخر الممر عاليمين | ékher lmamarr 3al-yamin. | Am Ende des Flurs rechts. | End of the hallway on the right. |
-| Daniel | !يسلمو | yeslamo! | Danke dir! | Thanks! |
+| Daniel | يسلمو! | yeslamo! | Danke dir! | Thanks! |
 
 ## Vocabulary
 
@@ -53,10 +53,10 @@ Full lesson-01 greeting exchange at natural speed, both genders.
 | شكرا | shukran | danke | thank you | TODO |
 | يسلمو | yeslamo | danke (warm) | thanks (warm) | TODO |
 | ولو | walaw | aber bitte! | come on / don't mention it | TODO |
-| بعد إذنك | 3an iznak/iznik | Entschuldigung (m/f) | excuse me | TODO |
+| عن إذنك | 3an iznak/iznik | Entschuldigung (m/f) | excuse me | TODO |
 | سوري | soré | sorry | sorry | TODO |
 | معليش | ma3lésh | macht nichts | it's okay / never mind | TODO |
-| الله يسلمك | alla yeslamak | Antwort auf yeslamo | reply to yeslamo | TODO |
+| الله يسلمك | alla yeslamak / yeslamik | Antwort auf yeslamo (m/f) | reply to yeslamo | TODO |
 | صحتين | sa7tén | guten Appetit | enjoy your meal | TODO |
 | نعيمًا | na3iman | nach Haarschnitt/Dusche gesagt | said after haircut/shower | TODO |
 | وين | wén | wo | where | TODO |

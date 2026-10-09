@@ -50,7 +50,7 @@ audio: TODO
 
 ## Role-play variations
 - Plumber call (dialogue), then electrician (kahraba ma2tu3a + motor questions — very Lebanese).
-- Landlord escalation: second call, polite but firm — recycle past tense: ttasalet fik mbéri7 w ma jit!
+- Landlord escalation: second call, polite but firm — recycle past tense: ttasalt fik mbéri7 w ma jit!
 
 ## Assignment
 - Anki deck 22. Voice note: report a (fictional) broken fridge to your landlord — problem, history, demand, deadline.

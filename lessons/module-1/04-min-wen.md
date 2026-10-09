@@ -4,7 +4,7 @@ module: 1
 level: A1
 title: "Min wén inta? — Origins, languages, nisba adjectives"
 scenario: "Say where you're from, what languages you speak, and ask the same — the questions every Lebanese will ask you in the first minute."
-grammar: ["nisba adjectives -é/-iyyé", "b7ké / bta7ké present singular"]
+grammar: ["nisba adjectives -é/-iyyé", "be7ké / bte7ké present singular"]
 vocab_count: 16
 audio: TODO
 ---
@@ -34,7 +34,7 @@ Numbers blitz (L03), greetings chain.
 ## Grammar point: nisba (origin adjectives)
 Country → person: add **-é** (m) / **-iyyé** (f):
 almanya → almané/almaniyyé · lebnén → lebnéné/lebnéniyyé ·
-faransa → fransawé · suriyya → suré
+faransa → fransawé/fransawiyyé · surya → suré/suriyyé
 
 ## Vocabulary
 
@@ -49,7 +49,7 @@ faransa → fransawé · suriyya → suré
 | بحكي | be7ké | ich spreche | I speak | TODO |
 | بتحكي | bte7ké | du sprichst | you speak | TODO |
 | عم بتعلم | 3am bet3allam | ich lerne gerade | I'm learning | TODO |
-| اشتغل / شغل | eshteghel / sheghel | arbeiten / Arbeit | to work / work | TODO |
+| بشتغل / شغل | beshteghel / sheghel | ich arbeite / Arbeit | I work / work | TODO |
 | هون | hon | hier | here | TODO |
 | هونيك | honik | dort | there | TODO |
 | شوي | shwayy | ein bisschen | a little | TODO |

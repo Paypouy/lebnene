@@ -4,7 +4,7 @@ module: 2
 level: A1
 title: "Yom 3adé — Daily routine"
 scenario: "Narrate your whole day in order with time expressions and sequencers."
-grammar: ["sequencers: awwal shé / ba3dén / ba3ed ma / bil-ékher", "reflexive daily verbs"]
+grammar: ["sequencers: awwal shé / ba3dén / ba3ed ma / bil-ékher", "t-stem daily verbs: betghadda / bet3ashsha / betfarraj"]
 vocab_count: 14
 audio: TODO
 ---
@@ -17,9 +17,9 @@ audio: TODO
 |---|---|---|---|---|
 | Sami | كيف بيمشي نهارك؟ | kif byemshé nharak? | Wie läuft dein Tag so? | How does your day go? |
 | Daniel | بفيق الساعة سبعة، أوّل شي ببلش بالقهوة. | bfi2 l-sé3a sab3a, awwal shé beballesh bil-2ahwé. | Ich wache um sieben auf, zuerst fange ich mit dem Kaffee an. | I wake up at seven; first thing, I start with coffee. |
-| Daniel | بعدين بشتغل من البيت لحد الساعة ستة. | ba3dén beshteghel mn l-bét la7add l-sé3a setté. | Dann arbeite ich von zu Hause bis sechs. | Then I work from home until six. |
+| Daniel | بعدين بشتغل من البيت لحد الساعة ستة. | ba3dén beshteghel min l-bét la7add l-sé3a setté. | Dann arbeite ich von zu Hause bis sechs. | Then I work from home until six. |
 | Sami | وبالليل؟ | w bil-lél? | Und abends? | And at night? |
-| Daniel | بطبخ، ببعدين بتفرج عتلفزيون أو بطلع مع رفقاتي. | betbokh, w ba3dén betfarraj 3a-televizyon aw betla3 ma3 ref2été. | Ich koche, dann schaue ich fern oder gehe mit Freunden raus. | I cook, then watch TV or go out with friends. |
+| Daniel | بطبخ، وبعدين بتفرج عالتلفزيون أو بطلع مع رفقاتي. | betbokh, w ba3dén betfarraj 3al-televizyon aw betla3 ma3 ref2été. | Ich koche, dann schaue ich fern oder gehe mit Freunden raus. | I cook, then watch TV or go out with friends. |
 
 ## Vocabulary
 

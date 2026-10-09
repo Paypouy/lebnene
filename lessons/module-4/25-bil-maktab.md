@@ -17,7 +17,7 @@ audio: TODO
 |---|---|---|---|---|
 | Manager | وين صرنا بالمشروع؟ | wén serna bil-mashru3? | Wo stehen wir mit dem Projekt? | Where are we on the project? |
 | Daniel | خلصنا القسم الأول، وعم نشتغل عالتاني. | khallasna l-2esem l-awwal, w 3am neshteghel 3al-téné. | Den ersten Teil haben wir fertig, am zweiten arbeiten wir gerade. | First part done, working on the second. |
-| Manager | منيح. بتخلصوا قبل الخميس؟ | mni7. btkhalso 2abel l-khamis? | Gut. Seid ihr vor Donnerstag fertig? | Good. Done before Thursday? |
+| Manager | منيح. بتخلصوا قبل الخميس؟ | mni7. btkhallso 2abel l-khamis? | Gut. Seid ihr vor Donnerstag fertig? | Good. Done before Thursday? |
 | Daniel | إذا ما في مفاجآت، إي. بس لازم جواب من فريق التصميم. | iza ma fi mufaja2ét, é. bass lézim jawéb min fari2 l-tasmim. | Wenn nichts dazwischenkommt, ja. Aber wir brauchen eine Antwort vom Design-Team. | If no surprises, yes. But we need an answer from design. |
 | Manager | بحكيهن أنا. شي تاني؟ | be7kiyon ana. shé téné? | Ich rede mit ihnen. Sonst noch was? | I'll talk to them. Anything else? |
 | Daniel | إي — فيك تبعتلي الملف عالإيميل؟ | é — fik teb3atlé l-malaff 3al-email? | Ja — kannst du mir die Datei per Mail schicken? | Yes — can you email me the file? |
@@ -34,7 +34,7 @@ audio: TODO
 | فريق | fari2 | Team | team | TODO |
 | زميل | zamil | Kollege | colleague | TODO |
 | ملف | malaff | Datei, Akte | file | TODO |
-| بعت | ba3at | schicken | to send | TODO |
+| بَعَت | ba3at | schicken | to send | TODO |
 | جواب | jawéb | Antwort | answer | TODO |
 | سؤال | su2él | Frage | question | TODO |
 | قبل | 2abel | vor (zeitl.) | before | TODO |

@@ -41,13 +41,13 @@ audio: TODO
 | ما في | ma fi | es gibt nicht | there isn't | TODO |
 | عجقة | 3aj2a | Stau | traffic jam | TODO |
 | طريق | tari2 | Weg, Straße | road, way | TODO |
-| محطة | m7atta | Haltestelle, Tankstelle | station | TODO |
+| محطة | m7atta | Haltestelle, Tankstelle | station, gas station | TODO |
 | هونيك | honik | dort | there | TODO |
 | واصل | wésel | angekommen | arrived | TODO |
 
 ## Drills
 1. Window shout: teacher = driver; student states 6 destinations with 3a/3al-.
-2. fi/ma fi: fi 3aj2a lyom? ma fi mahal — 8 rounds.
+2. fi/ma fi: fi 3aj2a lyom? ma fi ma7all — 8 rounds.
 3. Polite commands stack: 3mol ma3ruf + nazzelné/khod yamin/stanna shwayy.
 
 ## Role-play variations

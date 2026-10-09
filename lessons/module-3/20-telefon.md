@@ -4,7 +4,7 @@ module: 3
 level: A2
 title: "Alo? — Phone calls & appointments"
 scenario: "Survive a phone call with no faces and no gestures: book, confirm, reschedule."
-grammar: ["phone register: minno/minna openers", "mn2addem / mn2akhkher (move earlier/later)"]
+grammar: ["phone openers: alo / min ma3é?", "mn2addem / mn2akhkher (move earlier/later)"]
 vocab_count: 12
 audio: TODO
 ---
@@ -33,16 +33,16 @@ audio: TODO
 |---|---|---|---|---|
 | ألو | alo | hallo (Telefon) | hello (phone) | TODO |
 | موعد | maw3ad | Termin | appointment | TODO |
-| إحجز | e7joz | buchen (ich buche) | to book | TODO |
+| إحجز | e7joz | buchen (nach baddé: baddé e7joz) | to book (after baddé) | TODO |
 | ممكن | momken | möglich, geht es…? | possible, could…? | TODO |
 | مسجّل | msajjal | notiert | recorded/noted | TODO |
 | مين معي؟ | min ma3é? | wer ist dran? | who's calling? | TODO |
 | منقدّم | mn2addem | vorverlegen | move earlier | TODO |
-| منأخّر | mn2akhkher | verschieben | move later | TODO |
+| منأخّر | mn2akhkher | nach hinten verschieben | move later | TODO |
 | مشغول | mashghul | besetzt; beschäftigt | busy | TODO |
 | عاود اتصل | 3éwed ttesel | ruf nochmal an | call again | TODO |
 | ما في إرسال | ma fi irsél | kein Empfang | no signal | TODO |
-| سكّرت الخط | sakkaret l-khatt | aufgelegt | hung up | TODO |
+| سكّرت الخط | sakkart l-khatt | ich habe aufgelegt | I hung up | TODO |
 
 ## Drills
 1. Spelling your name with Arabic letter names — drilled until smooth.

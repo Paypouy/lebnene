@@ -55,7 +55,7 @@ student names person).
 |---|---|---|---|---|
 | بعمل | ba3mel | ich mache | I do/make | TODO |
 | بدرس | bedros | ich lerne/studiere | I study | TODO |
-| بروح | brou7 | ich gehe | I go | TODO |
+| بروح | bru7 | ich gehe | I go | TODO |
 | بجي | bejé | ich komme | I come | TODO |
 | بنام | bném | ich schlafe | I sleep | TODO |
 | بفيق | bfi2 | ich wache auf | I wake up | TODO |
@@ -70,7 +70,7 @@ student names person).
 | عادةً | 3édatan | normalerweise | usually | TODO |
 
 ## Drills
-1. **Conjugation snake:** one verb, around the persons, then 3am-forms, then negated. Verbs: yedros, yeshrab, yé2kol, yshuf.
+1. **Conjugation snake:** one verb, around the persons, then 3am-forms, then negated. Verbs: yedros, yeshrab, yékol, yshuf.
 2. **Habit vs. now:** teacher shows a phrase card ("kell yom" / "halla2") + verb → student builds the right form.
 3. **Why-because chain:** lésh 3am tedros? la2anno… — 6 different reasons.
 
