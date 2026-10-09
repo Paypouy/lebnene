@@ -18,8 +18,8 @@ audio: TODO
 ## Sample chat (read aloud, fast)
 
 ```
-Sami:  ki fak? wenak mn zaman!
-Daniel: hahaha sorry kenet maghru2 bil sheghel
+Sami:  kifak? wenak mn zaman!
+Daniel: hahaha sorry kent maghru2 bil sheghel
 Sami:  tayyeb el sabt 3azimé 3nde, jeyé?
 Daniel: akid jéyé! 2addé el sé3a?
 Sami:  8, bas ta3a 7:30 sa3edné shwayy 😅

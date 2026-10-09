@@ -18,7 +18,7 @@ audio: TODO
 | Sami | بِرأيي، أحسن أكلة لبنانية هي الكبة. | bi-ra2yé, a7san aklé lebnéniyyé hiyyé l-kebbé. | Meiner Meinung nach ist Kibbeh das beste libanesische Gericht. | In my opinion, kibbeh is the best Lebanese dish. |
 | Daniel | معك حق إنها طيبة، بس بِرأيي التبولة أحسن. | ma3ak 7a22 inna tayybé, bass bi-ra2yé l-tabboulé a7san. | Du hast recht, dass es lecker ist, aber ich finde Tabbouleh besser. | You're right it's tasty, but I think tabbouleh's better. |
 | Sami | التبولة؟! هيدي سلطة، مش أكلة! | l-tabboulé?! haidé salata, mish aklé! | Tabbouleh?! Das ist Salat, kein Gericht! | Tabbouleh?! That's a salad, not a dish! |
-| Daniel | ولو! ليش هيك عم تحكي؟ المهم الطعمة، مش الحجم. | walaw! lésh hék 3am te7ké? l-muhemm l-ta3mé, mish l-7ajem. | Na hör mal! Wieso redest du so? Auf den Geschmack kommt es an, nicht auf die Größe. | Come on! What matters is taste, not size. |
+| Daniel | ولو! ليش هيك عم تحكي؟ المهم الطعمة، مش الحجم. | walaw! lésh hék 3am te7ké? l-muhemm l-ta3mé, mish l-7ajem. | Na hör mal! Wieso redest du so? Auf den Geschmack kommt es an, nicht auf die Größe. | Come on! Why are you talking like that? What matters is taste, not size. |
 | Sami | طيب، خلينا نسأل رنا. | tayyeb, khallina nes2al Rana. | Gut, fragen wir Rana. | Fine, let's ask Rana. |
 | Daniel | اتفقنا. بس إذا قالت كبة، عم تكذب لتعجبك. | ttafa2na. bass iza 2alet kebbé, 3am tekzob la-te3jbak. | Abgemacht. Aber wenn sie Kibbeh sagt, lügt sie nur dir zuliebe. | Deal. But if she says kibbeh, she's lying to please you. |
 
