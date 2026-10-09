@@ -4,7 +4,7 @@ module: 2
 level: A1
 title: "Kif brou7 3a…? — Directions & places"
 scenario: "Ask for and understand directions; name the places of city life."
-grammar: ["imperatives: rou7 / khod / dghor", "prepositions: 7add / 2bél / wara / bén"]
+grammar: ["imperatives: rou7 / khod", "prepositions: 7add / 2bél / wara / bén"]
 vocab_count: 16
 audio: TODO
 ---

@@ -48,7 +48,7 @@ einundzwanzig). This is a genuine freebie for a German speaker.
 | Daniel | إي، تفضّل. قدّي الخط؟ | é, tfaddal. 2addé lkhatt? | Ja, bitte. Wie viel kostet die SIM? | Yes, here. How much is the SIM? |
 | Clerk | خمسطعش دولار. | khamsta3sh dolar. | Fünfzehn Dollar. | Fifteen dollars. |
 | Daniel | تمام. وشو رقمي؟ | tamém. w shu ra2mé? | Okay. Und wie ist meine Nummer? | Okay. And what's my number? |
-| Clerk | صفر تلاتة، سبعة ميّة تمانة وأربعين، اتنين وعشرين. | sefer tlété, sab3a miyyé tméné w arb3in, tnén w 3eshrin. | 03 748 22 … | 03 748 22 … |
+| Clerk | صفر تلاتة، سبع ميّة وتمانة وأربعين، تنين وعشرين. | sefer tlété, sab3 miyyé w tméné w arb3in, tnén w 3eshrin. | 03 748 22 … | 03 748 22 … |
 | Daniel | لحظة، عم بكتب… | la7za, 3am bektob… | Moment, ich schreibe… | One sec, I'm writing… |
 
 ## Vocabulary
@@ -76,7 +76,7 @@ einundzwanzig). This is a genuine freebie for a German speaker.
 
 ## Drills
 1. **Number sniper:** teacher fires random numbers 1–1000 in Arabic, student writes digits. Then reverse.
-2. **Price haggling warm-up:** teacher: "tléta w tlétin dolar" → student: "ktir ghalé! 3eshrin?" (pattern only — full haggling in L23).
+2. **Price haggling warm-up:** teacher: "tlété w tlétin dolar" → student: "ktir ghalé! 3eshrin?" (pattern only — full haggling in L23).
 3. **Phone numbers:** each says a (fake) 8-digit Lebanese number, other writes it. 5 rounds.
 
 ## Role-play variations

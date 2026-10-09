@@ -4,7 +4,7 @@ module: 2
 level: A1
 title: "L-wa2et — Time, days, scheduling words"
 scenario: "Tell the time, name the days, say when things happen."
-grammar: ["telling time: l-sé3a tnén w noss", "bukra / lyom / mbéri7"]
+grammar: ["telling time: l-sé3a tentén w noss", "bukra / lyom / mbéri7"]
 vocab_count: 16
 audio: TODO
 ---
@@ -21,8 +21,10 @@ audio: TODO
 | Daniel | معليش، في وقت. كل تنين نفس الشي. | ma3lésh, fi wa2et. kell tanén nafs l-shé. | Kein Stress, ist noch Zeit. Jeden Montag dasselbe. | Relax, there's time. Same thing every Monday. |
 
 Time formula: **l-sé3a + number (+ w noss / w rbe3 / illa rbe3)**.
-German parallel: „halb" logic differs — *tnén w noss* = **2:30** (zwei und
-halb, NOT halb drei!). Flag this hard for German speakers.
+Clock hours 1 and 2 use the feminine forms: *l-sé3a wé7de* (1:00), *l-sé3a tentén* (2:00).
+German parallel: „halb" logic differs — *tentén w noss* = **2:30** = *halb drei*.
+Lebanese counts from the past hour („zwei und halb"), German toward the next
+hour („halb drei"); never say *tlété w noss* for *halb drei*. Flag this hard for German speakers.
 
 ## Vocabulary
 
@@ -34,13 +36,13 @@ halb, NOT halb drei!). Flag this hard for German speakers.
 | تلت | tilt | zwanzig Min. (Drittel) | twenty min (third) | TODO |
 | إلا | illa | vor (Uhrzeit) | to (time) | TODO |
 | دقيقة | da2i2a | Minute | minute | TODO |
-| تنين | (l-)tanén | Montag | Monday | TODO |
-| تلاتا | (l-)taléta | Dienstag | Tuesday | TODO |
-| أربعا | (l-)arb3a | Mittwoch | Wednesday | TODO |
-| خميس | (l-)khamis | Donnerstag | Thursday | TODO |
-| جمعة | (l-)jem3a | Freitag | Friday | TODO |
-| سبت | (l-)sabet | Samstag | Saturday | TODO |
-| أحد | (l-)a7ad | Sonntag | Sunday | TODO |
+| التنين | l-tanén | Montag | Monday | TODO |
+| التلاتا | l-taléta | Dienstag | Tuesday | TODO |
+| الأربعا | l-arb3a | Mittwoch | Wednesday | TODO |
+| الخميس | l-khamis | Donnerstag | Thursday | TODO |
+| الجمعة | l-jem3a | Freitag | Friday | TODO |
+| السبت | l-sabet | Samstag | Saturday | TODO |
+| الأحد | l-a7ad | Sonntag | Sunday | TODO |
 | بكرا | bukra | morgen | tomorrow | TODO |
 | مبارح | mbéri7 | gestern | yesterday | TODO |
 | بعدين | ba3dén | später, danach | later, afterwards | TODO |

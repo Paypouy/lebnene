@@ -19,8 +19,8 @@ audio: TODO
 | Daniel | راسي عم يوجعني، وصرلي يومين معي حرارة. | rasé 3am yuja3né, w sarlé yomén ma3é 7arara. | Mein Kopf tut weh, und ich habe seit zwei Tagen Fieber. | My head hurts, and I've had a fever for two days. |
 | Pharmacist | في سعال؟ حلقك بيوجعك؟ | fi s3él? 7al2ak byuja3ak? | Husten? Tut der Hals weh? | Cough? Sore throat? |
 | Daniel | إي، شوي. | é, shwayy. | Ja, ein bisschen. | Yes, a bit. |
-| Pharmacist | خود هالدوا، حبّة كل تمن ساعات بعد الأكل. | khod hal-dawa, 7abbé kell tmén sé3at ba3ed l-akel. | Nimm dieses Medikament, eine Tablette alle acht Stunden nach dem Essen. | Take this — one pill every eight hours after food. |
-| Daniel | وإذا ما صرت أحسن؟ | w iza ma sere t a7san? | Und wenn es nicht besser wird? | And if I don't get better? |
+| Pharmacist | خود هالدوا، حبّة كل تمن ساعات بعد الأكل. | khod hal-dawa, 7abbé kell tmén sé3ét ba3ed l-akel. | Nimm dieses Medikament, eine Tablette alle acht Stunden nach dem Essen. | Take this — one pill every eight hours after food. |
+| Daniel | وإذا ما صرت أحسن؟ | w iza ma sert a7san? | Und wenn es nicht besser wird? | And if I don't get better? |
 | Pharmacist | روح عند الحكيم. سلامتك! | rou7 3and l-7akim. salémtak! | Geh zum Arzt. Gute Besserung! | See a doctor. Get well! |
 
 ## Vocabulary
@@ -49,8 +49,8 @@ audio: TODO
 
 ## Role-play variations
 - Pharmacy (dialogue) with different symptoms drawn from cards.
-- Doctor visit: longer anamnesis — émta ballash? akalet shé gharib?
-- Call in sick to work (recycles L20!): ana ta3bén lyom, mish ra7 e2dar jé.
+- Doctor visit: longer anamnesis — émta ballash? akalt shé gharib?
+- Call in sick to work (recycles L20!): ana ta3bén lyom, mish ra7 e2dar ejé.
 
 ## Assignment
 - Anki deck 21. Voice note: call in sick convincingly, 30+ seconds.

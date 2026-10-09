@@ -4,8 +4,8 @@ module: 1
 level: A1
 title: "3al-2ahwé — Ordering at the café"
 scenario: "Order drinks and snacks for yourself and others, handle the waiter's questions, get the bill."
-grammar: ["baddé/baddak conjugation", "polite imperative: 3atiné, jibelné"]
-vocab_count: 17
+grammar: ["baddé/baddak conjugation", "polite imperative: 3atiné, jiblé"]
+vocab_count: 18
 audio: TODO
 ---
 
@@ -50,10 +50,10 @@ Negation: **ma baddé** (no -sh in Lebanese).
 | حلو / حلوة | 7elo / 7elwé | süß; schön | sweet; nice | TODO |
 | مر | morr | bitter | bitter (unsweetened) | TODO |
 | بشرب | beshrab | ich trinke | I drink | TODO |
-| بإكل | békol | ich esse | I eat | TODO |
+| بآكل | békol | ich esse | I eat | TODO |
 | عطيني | 3atiné | gib mir | give me | TODO |
-| جبلي | jibelné | bring mir | bring me | TODO |
-| قنينة | 2annine | Flasche | bottle | TODO |
+| جبلي | jiblé | bring mir | bring me | TODO |
+| قنينة | 2anniné | Flasche | bottle | TODO |
 | حساب | 7séb | Rechnung | bill | TODO |
 | باقي | bé2é | Rest(geld) | change / remainder | TODO |
 | ولّا | walla | oder (Frage) | or (in questions) | TODO |
@@ -61,7 +61,7 @@ Negation: **ma baddé** (no -sh in Lebanese).
 
 ## Drills
 1. **badd- ladder:** all 8 forms on 2ahwé, then on shéy, then ma badd-.
-2. **Order relay:** teacher plays waiter with curveballs (ma fi 3asir — we're out of juice) → student adapts: tayyeb, jibelné mayy.
+2. **Order relay:** teacher plays waiter with curveballs (ma fi 3asir — we're out of juice) → student adapts: tayyeb, jiblé mayy.
 3. **Walla-questions:** 2ahwé walla shéy? 7elo walla morr? hon walla take-away? — instant answers.
 
 ## Role-play variations

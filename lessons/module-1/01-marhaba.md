@@ -38,7 +38,7 @@ lesson happens in Arabic.**
 
 ## Grammar point: pronouns + the -ak/-ik switch
 
-| | Pronoun | "your name" | "how are you" |
+| | Pronoun | "name" | "how are you" |
 |---|---|---|---|
 | I | أنا ana | esmé (my name) | — |
 | you (m) | إنت inta | esmak | kifak |

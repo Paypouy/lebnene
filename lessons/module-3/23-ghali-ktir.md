@@ -15,11 +15,11 @@ audio: TODO
 
 | | Arabic | Translit | Deutsch | English |
 |---|---|---|---|---|
-| Daniel | جارة، اشتريت هالسماعات مبارح وما عم يشتغلوا. | jara, shtarét hal-samma3at mbéri7 w ma 3am yeshteghlo. | Also, ich habe diese Kopfhörer gestern gekauft und sie funktionieren nicht. | So — I bought these earphones yesterday and they don't work. |
+| Daniel | شوف، اشتريت هالسماعات مبارح وما عم يشتغلوا. | shuf, shtarét hal-samma3ét mbéri7 w ma 3am yeshteghlo. | Also, ich habe diese Kopfhörer gestern gekauft und sie funktionieren nicht. | So — I bought these earphones yesterday and they don't work. |
 | Seller | ورجيني… معك الفاتورة؟ | warjiné… ma3ak l-fatura? | Zeig mal… Hast du den Beleg? | Show me… got the receipt? |
 | Daniel | إي تفضّل. بدّي بدّلن أو رجّع مصرياتي. | é tfaddal. baddé baddelon aw rajje3 masriyété. | Ja, bitte. Ich will sie umtauschen oder mein Geld zurück. | Yes, here. Exchange or refund. |
 | Seller | بس ما منرجّع مصاري… | bass ma mnrajje3 masaré… | Aber wir geben kein Geld zurück… | But we don't do refunds… |
-| Daniel | حبيبي، السماعات خربانة من عندكن. إذا ما في بديل، لازم ترجعولي مصرياتي. | 7abibé, l-samma3at kharbéné min 3andkon. iza ma fi badil, lézim trajj3ulé masriyété. | Mein Lieber, die Kopfhörer waren von euch aus kaputt. Wenn es keinen Ersatz gibt, müsst ihr mir das Geld zurückgeben. | My friend, they were broken from your side. If there's no replacement, you must refund me. |
+| Daniel | حبيبي، السماعات خربانة من عندكن. إذا ما في بديل، لازم ترجعولي مصرياتي. | 7abibé, l-samma3ét kharbéné min 3andkon. iza ma fi badil, lézim trajj3ulé masriyété. | Mein Lieber, die Kopfhörer waren von euch aus kaputt. Wenn es keinen Ersatz gibt, müsst ihr mir das Geld zurückgeben. | My friend, they were broken from your side. If there's no replacement, you must refund me. |
 | Seller | طيب طيب… في نفس الموديل بلون تاني. | tayyeb tayyeb… fi nafs l-model b-lon téné. | Schon gut… Es gibt dasselbe Modell in anderer Farbe. | Fine, fine… same model, different color. |
 | Daniel | عظيم. ويسلمو عالتعاون! | 3azim. w yeslamo 3al-ta3éwon! | Super. Und danke für die Kooperation! | Great. Thanks for the cooperation! |
 
@@ -28,7 +28,7 @@ audio: TODO
 | Arabic | Translit | Deutsch | English | Audio |
 |---|---|---|---|---|
 | اشتريت | shtarét | ich kaufte | I bought | TODO |
-| بعت | bé3 / be3et | verkaufen / ich verkaufte | to sell / I sold | TODO |
+| باع / بعت | bé3 / be3t | verkaufen / ich verkaufte | to sell / I sold | TODO |
 | فاتورة | fatura | Beleg, Rechnung | receipt, invoice | TODO |
 | بدّل | baddal | tauschen | to exchange | TODO |
 | رجّع | rajja3 | zurückgeben | to return/refund | TODO |
