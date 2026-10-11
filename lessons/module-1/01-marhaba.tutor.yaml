@@ -169,6 +169,17 @@ steps:
   - اسمي {any}. وإنت؟
   - أنا اسمي {any}
   - اسمي {any}
+  - ana esmé {any} w inta shu esmak
+  - ana esmé {any} inta shu esmak
+  - ana {any} w inta shu esmak
+  - ana {any} w inta
+  - ana {any}
+  - أنا اسمي {any}، وإنت شو اسمك؟
+  - أنا اسمي {any}، إنت شو اسمك؟
+  - أنا {any}، وإنت شو اسمك؟
+  - أنا {any}، إنت شو اسمك؟
+  - أنا {any}. وإنت؟
+  - أنا {any}
   hint: ana esmé ... = my name is ...; w inta? = and you?
   gender_variants:
     f:
