@@ -1,0 +1,204 @@
+# Tutor script for Lesson 2. Schema and linter: scripts/compile_lesson.py
+lesson: 2
+lexicon:
+- ar: تفضّل / تفضّلي
+  tr: tfaddal / tfaddalé
+  en: here you go / go ahead
+  de: bitte sehr (m/f)
+- ar: ميرسي
+  tr: mérsi
+  en: thanks
+  de: danke
+- ar: شكرا
+  tr: shukran
+  en: thank you
+  de: danke
+- ar: يسلمو
+  tr: yeslamo
+  en: thanks (warm)
+  de: danke (warm)
+- ar: ولو
+  tr: walaw
+  en: come on / don't mention it
+  de: aber bitte!
+- ar: عن إذنك
+  tr: 3an iznak/iznik
+  en: excuse me
+  de: Entschuldigung (m/f)
+- ar: سوري
+  tr: soré
+  en: sorry
+  de: sorry
+- ar: معليش
+  tr: ma3lésh
+  en: it's okay / never mind
+  de: macht nichts
+- ar: الله يسلمك
+  tr: alla yeslamak / yeslamik
+  en: reply to yeslamo
+  de: Antwort auf yeslamo (m/f)
+- ar: صحتين
+  tr: sa7tén
+  en: enjoy your meal
+  de: guten Appetit
+- ar: نعيمًا
+  tr: na3iman
+  en: said after haircut/shower
+  de: nach Haarschnitt/Dusche gesagt
+- ar: وين
+  tr: wén
+  en: where
+  de: wo
+- ar: حمّام
+  tr: 7ammém
+  en: bathroom
+  de: Toilette, Bad
+- ar: كتير
+  tr: ktir
+  en: a lot
+  very: null
+  de: viel
+  sehr: null
+- ar: آخر
+  tr: ékher
+  en: end (of)
+  de: Ende
+- ar: ممر
+  tr: mamarr
+  en: hallway
+  de: Flur
+- ar: عاليمين
+  tr: 3al-yamin
+  en: on the right
+  de: rechts
+steps:
+- id: '1'
+  type: present
+  say:
+    ar: تفضّل.
+    tr: tfaddal.
+    en: Here you go.
+  gender_variants:
+    f:
+      say:
+        ar: تفضّلي.
+        tr: tfaddalé.
+        en: Here you go. (f)
+- id: '2'
+  type: respond
+  prompt: 'Thank them: thanks a lot!'
+  expect:
+    ar: ميرسي كتير!
+    tr: mérsi ktir!
+  accept:
+  - mérsi
+  - yeslamo
+  - shukran
+  - ميرسي
+  - يسلمو
+  - شكرا
+  - merci
+  - merci ktir
+  hint: mérsi + ktir (a lot)
+- id: '3'
+  type: present
+  say:
+    ar: ولو!
+    tr: walaw!
+    en: Come on, don't mention it.
+- id: '4'
+  type: respond
+  prompt: Excuse me, where's the bathroom?
+  expect:
+    ar: عن إذنك، وين الحمّام؟
+    tr: 3an iznak, wén l7ammém?
+  accept:
+  - 3an iznik, wén l7ammém?
+  - wén l7ammém?
+  - وين الحمّام؟
+  hint: 3an iznak = excuse me; wén = where; l7ammém = the bathroom
+- id: '5'
+  type: present
+  say:
+    ar: آخر الممر عاليمين.
+    tr: ékher lmamarr 3al-yamin.
+    en: End of the hallway on the right.
+- id: '6'
+  type: respond
+  prompt: Thank them, warm and short.
+  expect:
+    ar: يسلمو!
+    tr: yeslamo!
+  accept:
+  - mérsi
+  - mérsi ktir
+  - shukran
+  - ميرسي
+  - ميرسي كتير
+  - شكرا
+  - merci
+  hint: the warm one starts with yes-
+- id: '7'
+  type: respond
+  prompt: Someone says yeslamo to you. Reply.
+  expect:
+    ar: الله يسلمك
+    tr: alla yeslamak
+  accept:
+  - alla yeslamik
+  hint: alla + yeslamak
+- id: '8'
+  type: respond
+  prompt: A friend starts eating in front of you. What do you say?
+  expect:
+    ar: صحتين
+    tr: sa7tén
+  hint: it starts with sa7-
+- id: '9'
+  type: respond
+  prompt: You arrive late. Say sorry.
+  expect:
+    ar: سوري
+    tr: soré
+  accept:
+  - sorry
+- id: '10'
+  type: respond
+  prompt: 'Someone apologises to you. Say: it''s okay, never mind.'
+  expect:
+    ar: معليش
+    tr: ma3lésh
+  hint: it starts with ma3-
+- id: '11'
+  type: respond
+  prompt: Someone hands you a coffee. Thank them.
+  expect:
+    ar: ميرسي
+    tr: mérsi
+  accept:
+  - yeslamo
+  - shukran
+  - mérsi ktir
+  - يسلمو
+  - شكرا
+  - ميرسي كتير
+  - merci
+- id: '12'
+  type: translate
+  direction: ar-en
+  say:
+    ar: وين؟
+    tr: wén?
+    en: where?
+  expect:
+    en: where
+- id: '13'
+  type: translate
+  prompt: thank you (the standard word)
+  expect:
+    ar: شكرا
+    tr: shukran
+  accept:
+  - mérsi
+  - ميرسي
+  - merci

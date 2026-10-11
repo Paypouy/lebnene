@@ -5,7 +5,7 @@ level: A1
 title: "Mar7aba! — Greetings & introductions"
 scenario: "Greet someone, introduce yourself, ask how they are, say goodbye."
 grammar: ["independent pronouns ana/inta/inté", "kifak/kifik agreement"]
-vocab_count: 16
+vocab_count: 18
 audio: TODO
 ---
 
@@ -66,6 +66,8 @@ Everything addressed to a woman flips **-ak → -ik**. Drill it now, forever.
 | يلّا | yalla | los, also dann | come on, alright | TODO |
 | منشوفك | menshufak | man sieht sich | see you | TODO |
 | بخاطرك | bkhatrak | tschüss (Gehender) | bye (person leaving) | TODO |
+| مش | mish | nicht (vor Adjektiv/Nomen) | not | TODO |
+| شو في؟ | shu fi? | was ist los? | what's wrong? | TODO |
 
 ## Drills (15–20 min)
 1. **Substitution:** teacher says a name → student: "ana esmé ___, w inta shu esmak?"

@@ -5,7 +5,7 @@ level: A1
 title: "L-3aylé — Family, people, possessive suffixes"
 scenario: "Talk about your family and ask about theirs — the second conversation every Lebanese will have with you."
 grammar: ["possessive suffixes -é/-ak/-ik/-o/-a", "haida/haidé/hawdé"]
-vocab_count: 17
+vocab_count: 19
 audio: TODO
 ---
 
@@ -63,6 +63,8 @@ ekhté (my sister). **3and- = to have:** 3andé, 3andak, 3anda…
 | هيدا / هيدي | haida / haidé | dieser / diese | this (m/f) | TODO |
 | ساكن | séken | wohnhaft | living (resident) | TODO |
 | عند | 3and | bei, haben | at, to have | TODO |
+| بعد- | ba3d- (ba3dné, ba3dak) | noch | still | TODO |
+| كلب | kaleb | Hund | dog | TODO |
 
 ## Drills
 1. **Suffix ladder:** teacher: bét → student: bété, bétak, bétik, béto, béta. Then: telefon, sheghel, rfi2.
