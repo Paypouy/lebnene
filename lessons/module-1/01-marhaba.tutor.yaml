@@ -232,6 +232,7 @@ steps:
   type: substitute
   prompt: 'Drill: pretend this is your name. Introduce yourself, then ask a man his name.'
   pattern: ana esmé {item}, w inta shu esmak?
+  free_item: true
   items:
   - Sami
   - Layla
@@ -242,6 +243,11 @@ steps:
   - أنا اسمي {item}، وإنت شو اسمك؟
   - أنا اسمي {item}، إنت شو اسمك؟
   - ana esmé {item}, inta shu esmak?
+  - أنا اسمي {item}، وإنت؟
+  - اسمي {item}، وإنت؟
+  - ana esmé {item}, w inta?
+  - esmé {item}, w inta?
+  hint: 'ana esmé ... = my name is ...; w inta shu esmak? = and what''s your name?'
 - id: '10'
   type: respond
   prompt: 'Gender flip: ask a woman how she is.'
