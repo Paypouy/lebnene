@@ -254,6 +254,8 @@ steps:
     ar: أهلا وسهلا
     tr: ahla w sahla
   hint: ahla w ...
+  accept:
+  - ahlan w sahlan
 - id: '13'
   type: translate
   direction: ar-en

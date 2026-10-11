@@ -154,3 +154,20 @@ def test_lint_checks_gender_variant_arabic(tmp_path):
     )
     errors, _ = lint(tmp_path, None, False)
     assert any("قلم" in e for e in errors)
+
+
+def test_lint_orders_lessons_by_number_not_path(tmp_path):
+    """module-10 sorts before module-2 as text; the cumulative lexicon must follow lesson numbers."""
+    early = _lesson(tmp_path, 2, vocab_count=1, vocab=["| كتاب | ktéb | Buch | book | TODO |"],
+                    dialogue=["| A | كتاب | ktéb | Buch | Book |"])
+    (tmp_path / "lessons" / "module-2").mkdir(parents=True)
+    early.rename(tmp_path / "lessons" / "module-2" / "09-a.md")
+    late_dir = tmp_path / "lessons" / "module-10"
+    late_dir.mkdir(parents=True)
+    (late_dir / "80-b.md").write_text(
+        "---\nlesson: 80\nmodule: 10\nvocab_count: 0\n---\n\n## Dialogue\n\n| | Arabic | Translit | Deutsch | English |\n"
+        "|---|---|---|---|---|\n| A | كتاب | ktéb | Buch | Book |\n",
+        encoding="utf-8",
+    )
+    _, warnings = lint(tmp_path, 80, False)
+    assert not any("كتاب" in w for w in warnings)

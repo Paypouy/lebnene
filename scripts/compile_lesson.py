@@ -156,7 +156,9 @@ def draft(doc: LessonDoc) -> dict:
 
 
 def _lesson_files(root: Path) -> list[Path]:
-    return sorted(p for p in root.glob("lessons/*/*.md") if not p.name.endswith(".tutor.md"))
+    files = [p for p in root.glob("lessons/*/*.md") if not p.name.endswith(".tutor.md")]
+    # By lesson number: as text, module-10 would sort before module-2.
+    return sorted(files, key=lambda p: parse_lesson(p).number)
 
 
 def _script_path(md: Path) -> Path:
