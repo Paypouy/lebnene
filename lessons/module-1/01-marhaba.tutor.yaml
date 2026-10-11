@@ -1,0 +1,258 @@
+# Tutor script for Lesson 1. Schema and linter: scripts/compile_lesson.py
+lesson: 1
+lexicon:
+- ar: مرحبا
+  tr: mar7aba
+  en: hello
+  de: hallo
+- ar: مرحبتين
+  tr: mar7abtén
+  en: hello back
+  de: hallo zurück
+- ar: كيفك؟
+  tr: kifak/kifik?
+  en: how are you?
+  de: wie geht's?
+- ar: منيح / منيحة
+  tr: mni7 / mni7a
+  en: good (m/f)
+  de: gut (m/f)
+- ar: الحمدلله
+  tr: l7amdella
+  en: thank God
+  de: Gott sei Dank
+- ar: تمام
+  tr: tamém
+  en: great, fine
+  de: bestens, okay
+- ar: شو
+  tr: shu
+  en: what
+  de: was
+- ar: اسم
+  tr: esem
+  en: name
+  de: Name
+- ar: أنا
+  tr: ana
+  en: I
+  de: ich
+- ar: إنت / إنتي
+  tr: inta / inté
+  en: you (m/f)
+  de: du (m/f)
+- ar: و
+  tr: w
+  en: and
+  de: und
+- ar: أهلا وسهلا
+  tr: ahla w sahla
+  en: welcome
+  de: herzlich willkommen
+- ar: تشرّفنا
+  tr: tsharrafna
+  en: pleased to meet you
+  de: sehr erfreut
+- ar: يلّا
+  tr: yalla
+  en: come on, alright
+  de: los, also dann
+- ar: منشوفك
+  tr: menshufak
+  en: see you
+  de: man sieht sich
+- ar: بخاطرك
+  tr: bkhatrak
+  en: bye (person leaving)
+  de: tschüss (Gehender)
+- ar: مش
+  tr: mish
+  en: not
+  de: nicht (vor Adjektiv/Nomen)
+- ar: شو في؟
+  tr: shu fi?
+  en: what's wrong?
+  de: was ist los?
+- ar: اسمك
+  tr: esmak/esmik
+  en: your name (m/f)
+  de: dein Name
+- ar: اسمي
+  tr: esmé
+  en: my name
+  de: mein Name
+- ar: فيك
+  tr: fik
+  en: (welcome) to you
+  de: (willkommen) dir
+- ar: سامي
+  tr: Sami
+  en: Sami (name)
+  de: Sami (Name)
+- ar: دانيال
+  tr: Daniel
+  en: Daniel (name)
+  de: Daniel (Name)
+steps:
+- id: '1'
+  type: present
+  say:
+    ar: مرحبا!
+    tr: mar7aba!
+    en: Hello!
+- id: '2'
+  type: respond
+  prompt: Greet back the Lebanese way ("two hellos").
+  expect:
+    ar: مرحبتين!
+    tr: mar7abtén!
+  accept:
+  - mar7aba
+  hint: it's mar7aba with -tén on the end
+- id: '3'
+  type: respond
+  say:
+    ar: كيفك؟
+    tr: kifak?
+    en: How are you?
+  prompt: 'Answer: you''re good, thank God, and ask back.'
+  expect:
+    ar: منيح، الحمدلله. وإنت كيفك؟
+    tr: mni7, l7amdella. w inta kifak?
+  accept:
+  - mni7 l7amdella w inta
+  - mni7 l7amdella
+  - mni7 w inta kifak
+  - tamém l7amdella w inta kifak
+  - l7amdella w inta
+  hint: mni7 = good, l7amdella = thank God, w inta kifak? = and you?
+  gender_variants:
+    f:
+      say:
+        ar: كيفك؟
+        tr: kifik?
+        en: How are you? (f)
+      expect:
+        ar: منيحة، الحمدلله. وإنت كيفك؟
+        tr: mni7a, l7amdella. w inta kifak?
+      accept:
+      - mni7a l7amdella w inta
+      - mni7a l7amdella
+      - mni7a w inta kifak
+      - mni7 l7amdella w inta
+      - tamém l7amdella w inta kifak
+      - l7amdella w inta
+      hint: mni7a = good (f), l7amdella = thank God, w inta kifak? = and you?
+- id: '4'
+  type: respond
+  say:
+    ar: تمام. شو اسمك؟
+    tr: tamém. shu esmak?
+    en: Great. What's your name?
+  prompt: Tell me your name, and ask mine back.
+  expect:
+    ar: أنا اسمي دانيال. وإنت؟
+    tr: ana esmé Daniel. w inta?
+  accept:
+  - ana esmé {any} w inta
+  - esmé {any} w inta
+  - ana esmé {any}
+  - esmé {any}
+  hint: ana esmé ... = my name is ...; w inta? = and you?
+  gender_variants:
+    f:
+      say:
+        ar: تمام. شو اسمك؟
+        tr: tamém. shu esmik?
+        en: Great. What's your name? (f)
+- id: '5'
+  type: present
+  say:
+    ar: أنا سامي. أهلا وسهلا فيك!
+    tr: ana Sami. ahla w sahla fik!
+    en: I'm Sami. Welcome!
+  gender_variants:
+    f:
+      say:
+        ar: أنا سامي. أهلا وسهلا!
+        tr: ana Sami. ahla w sahla!
+        en: I'm Sami. Welcome!
+- id: '6'
+  type: respond
+  prompt: 'Say: pleased to meet you!'
+  expect:
+    ar: تشرّفنا!
+    tr: tsharrafna!
+  hint: it starts with tsh-
+- id: '7'
+  type: present
+  say:
+    ar: يلّا، منشوفك!
+    tr: yalla, menshufak!
+    en: Alright, see you around!
+  gender_variants:
+    f:
+      say:
+        ar: يلّا، منشوفك!
+        tr: yalla, menshufik!
+        en: Alright, see you around! (f)
+- id: '8'
+  type: respond
+  prompt: You're the one leaving. Say goodbye.
+  expect:
+    ar: بخاطرك!
+    tr: bkhatrak!
+  accept:
+  - bkhatrik
+  - yalla bkhatrak
+  hint: the leaver's goodbye starts with bkh-
+- id: '9'
+  type: substitute
+  prompt: 'Drill: introduce yourself with this name, then ask a man his name.'
+  pattern: ana esmé {item}, w inta shu esmak?
+  items:
+  - Sami
+  - Layla
+  - Karim
+  - Rana
+  - Daniel
+- id: '10'
+  type: respond
+  prompt: 'Gender flip: ask a woman how she is.'
+  expect:
+    ar: كيفك؟
+    tr: kifik?
+  accept:
+  - inté kifik
+  - kifik inté
+  hint: to a woman, -ak becomes -ik
+- id: '11'
+  type: respond
+  prompt: Now ask a man how he is.
+  expect:
+    ar: كيفك؟
+    tr: kifak?
+  accept:
+  - inta kifak
+  - kifak inta
+  hint: to a man it ends in -ak
+- id: '12'
+  type: translate
+  prompt: Welcome!
+  expect:
+    ar: أهلا وسهلا
+    tr: ahla w sahla
+  hint: ahla w ...
+- id: '13'
+  type: translate
+  direction: ar-en
+  say:
+    ar: الحمدلله
+    tr: l7amdella
+    en: thank God
+  expect:
+    en: thank God
+  accept:
+  - thanks be to God
+  - praise God
+  - thank god

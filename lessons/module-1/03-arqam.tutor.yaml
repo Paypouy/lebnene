@@ -1,0 +1,296 @@
+# Tutor script for Lesson 3. Schema and linter: scripts/compile_lesson.py
+lesson: 3
+lexicon:
+- ar: رقم
+  tr: ra2em
+  en: number
+  de: Nummer
+- ar: تلفون
+  tr: telefon
+  en: phone
+  de: Telefon
+- ar: خط
+  tr: khatt
+  en: SIM line
+  de: SIM / Leitung
+- ar: قدّي؟
+  tr: 2addé?
+  en: how much?
+  de: wie viel (Preis)?
+- ar: كم؟
+  tr: kam?
+  en: how many?
+  de: wie viele?
+- ar: دولار
+  tr: dolar
+  en: dollar
+  de: Dollar
+- ar: ليرة
+  tr: léra
+  en: lira
+  de: Lira (LBP)
+- ar: مصاري
+  tr: masaré
+  en: money
+  de: Geld
+- ar: غالي
+  tr: ghalé
+  en: expensive
+  de: teuer
+- ar: رخيص
+  tr: rkhis
+  en: cheap
+  de: billig
+- ar: بدّي
+  tr: baddé
+  en: I want
+  de: ich möchte/will
+- ar: تكرم
+  tr: tekram
+  en: gladly / at your service
+  de: gerne (Antwort)
+- ar: إي
+  tr: é
+  en: 'yes'
+  de: ja
+- ar: لأ
+  tr: la2
+  en: 'no'
+  de: nein
+- ar: لحظة
+  tr: la7za
+  en: one moment
+  de: Moment
+- ar: صفر
+  tr: sefer
+  en: zero
+  de: 'null'
+- ar: نص
+  tr: noss
+  en: half
+  de: halb
+- ar: كتير
+  tr: ktir
+  en: a lot, very
+  de: viel, sehr
+- ar: معك
+  tr: ma3ak/ma3ik
+  en: you have (on you) (m/f)
+  de: du hast (dabei) (m/f)
+- ar: جديد
+  tr: jdid
+  en: new
+  de: neu
+- ar: واحد
+  tr: wé7ad
+  en: one
+  de: eins
+- ar: تنين
+  tr: tnén
+  en: two
+  de: zwei
+- ar: تلاتة
+  tr: tlété
+  en: three
+  de: drei
+- ar: أربعة
+  tr: arb3a
+  en: four
+  de: vier
+- ar: خمسة
+  tr: khamsé
+  en: five
+  de: fünf
+- ar: ستة
+  tr: setté
+  en: six
+  de: sechs
+- ar: سبعة
+  tr: sab3a
+  en: seven
+  de: sieben
+- ar: تمانة
+  tr: tméné
+  en: eight
+  de: acht
+- ar: تسعة
+  tr: tes3a
+  en: nine
+  de: neun
+- ar: عشرة
+  tr: 3ashra
+  en: ten
+  de: zehn
+- ar: احدعش
+  tr: 7da3sh
+  en: eleven
+  de: elf
+- ar: عشرين
+  tr: 3eshrin
+  en: twenty
+  de: zwanzig
+- ar: مية
+  tr: miyyé
+  en: hundred
+  de: hundert
+- ar: ألف
+  tr: alf
+  en: thousand
+  de: tausend
+- ar: خمسطعش
+  tr: khamsta3sh
+  en: fifteen
+  de: fünfzehn
+- ar: سبع
+  tr: sab3
+  en: seven (before a noun)
+  de: sieben (vor Nomen)
+- ar: أربعين
+  tr: arb3in
+  en: forty
+  de: vierzig
+- ar: باسبور
+  tr: basbor
+  en: passport
+  de: Pass
+- ar: رقمي
+  tr: ra2mé
+  en: my number
+  de: meine Nummer
+- ar: عم
+  tr: 3am
+  en: (doing) right now
+  de: gerade
+- ar: بكتب
+  tr: bektob
+  en: I write
+  de: ich schreibe
+steps:
+- id: '1'
+  type: respond
+  prompt: You're at the phone shop. Say hi and that you want a new SIM.
+  expect:
+    ar: مرحبا، بدّي خط جديد.
+    tr: mar7aba, baddé khatt jdid.
+  accept:
+  - baddé khatt jdid
+  hint: baddé = I want; khatt jdid = new SIM
+- id: '2'
+  type: respond
+  say:
+    ar: تكرم. معك باسبور؟
+    tr: tekram. ma3ak basbor?
+    en: Sure. Got your passport?
+  prompt: Say yes, hand it over, and ask how much the SIM is.
+  expect:
+    ar: إي، تفضّل. قدّي الخط؟
+    tr: é, tfaddal. 2addé lkhatt?
+  accept:
+  - é 2addé lkhatt
+  - é tfaddal 2addé
+  - 2addé lkhatt
+  hint: é = yes; tfaddal = here you go; 2addé = how much (price)
+  gender_variants:
+    f:
+      say:
+        ar: معك باسبور؟
+        tr: ma3ik basbor?
+        en: Got your passport? (f)
+- id: '3'
+  type: present
+  say:
+    ar: خمسطعش دولار.
+    tr: khamsta3sh dolar.
+    en: Fifteen dollars.
+- id: '4'
+  type: respond
+  prompt: Say okay, and ask what your number is.
+  expect:
+    ar: تمام. وشو رقمي؟
+    tr: tamém. w shu ra2mé?
+  accept:
+  - shu ra2mé
+  - tamém shu ra2mé
+  hint: shu = what; ra2mé = my number
+- id: '5'
+  type: present
+  say:
+    ar: صفر تلاتة، سبع ميّة وتمانة وأربعين، تنين وعشرين.
+    tr: sefer tlété, sab3 miyyé w tméné w arb3in, tnén w 3eshrin.
+    en: 03 748 22
+- id: '6'
+  type: respond
+  prompt: 'Say: one moment, I''m writing…'
+  expect:
+    ar: لحظة، عم بكتب…
+    tr: la7za, 3am bektob…
+  accept:
+  - la7za
+  hint: la7za = one moment; 3am bektob = I'm writing
+- id: '7'
+  type: translate
+  direction: ar-en
+  say:
+    ar: واحد وعشرين
+    tr: wé7ad w 3eshrin
+    en: '21'
+  expect:
+    en: '21'
+  accept:
+  - twenty-one
+  - twenty one
+- id: '8'
+  type: translate
+  direction: ar-en
+  say:
+    ar: خمسطعش
+    tr: khamsta3sh
+    en: '15'
+  expect:
+    en: '15'
+  accept:
+  - fifteen
+- id: '9'
+  type: translate
+  prompt: '100'
+  expect:
+    ar: مية
+    tr: miyyé
+- id: '10'
+  type: translate
+  prompt: '1000'
+  expect:
+    ar: ألف
+    tr: alf
+- id: '11'
+  type: translate
+  prompt: 20 dollars (11 and up take the singular noun)
+  expect:
+    ar: عشرين دولار
+    tr: 3eshrin dolar
+  hint: 3eshrin + dolar, not dolarat
+- id: '12'
+  type: respond
+  prompt: 'Which word asks the price: kam or 2addé?'
+  expect:
+    ar: قدّي؟
+    tr: 2addé?
+  hint: kam counts things; the other one asks the price
+- id: '13'
+  type: respond
+  prompt: 'The seller says: tlété w tlétin dolar (33 dollars). Say it''s too expensive and offer 20.'
+  expect:
+    ar: كتير غالي! عشرين؟
+    tr: ktir ghalé! 3eshrin?
+  accept:
+  - ghalé ktir 3eshrin
+  - ktir ghalé
+  hint: ktir ghalé = too expensive
+- id: '14'
+  type: substitute
+  prompt: Say the price in dollars (11 and up take the singular dolar).
+  pattern: '{item} dolar'
+  items:
+  - 3eshrin
+  - miyyé
+  - alf
