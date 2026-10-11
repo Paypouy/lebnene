@@ -3,6 +3,7 @@
 
 Usage:
     python scripts/compile_lesson.py lint [--lesson N] [--strict]
+    python scripts/compile_lesson.py draft <lesson.md>    # YAML draft to stdout
 
 `lint` exits 1 on errors. Unknown Arabic words in a lesson without a tutor
 script are warnings unless --strict.
@@ -134,6 +135,26 @@ def validate_script(data: dict) -> list[str]:
     return errors
 
 
+def draft(doc: LessonDoc) -> dict:
+    """Draft script: vocab rows -> lexicon; dialogue -> present (first speaker) / respond (others)."""
+    lexicon = []
+    for row in doc.vocab_rows:
+        ar, tr, de, en = (row + ["", "", "", ""])[:4]
+        entry = {"ar": ar, "tr": tr, "en": en}
+        if de:
+            entry["de"] = de
+        lexicon.append(entry)
+    steps = []
+    first = doc.dialogue_rows[0]["speaker"] if doc.dialogue_rows else ""
+    for i, row in enumerate(doc.dialogue_rows, start=1):
+        line = {"ar": row["ar"], "tr": row["tr"]}
+        if row["speaker"] == first:
+            steps.append({"id": str(i), "type": "present", "say": {**line, "en": row["en"]}})
+        else:
+            steps.append({"id": str(i), "type": "respond", "prompt": f"Reply as {row['speaker']}: {row['en']}", "expect": line})
+    return {"lesson": doc.number, "lexicon": lexicon, "steps": steps}
+
+
 def _lesson_files(root: Path) -> list[Path]:
     return sorted(p for p in root.glob("lessons/*/*.md") if not p.name.endswith(".tutor.md"))
 
@@ -199,7 +220,13 @@ def main(argv: list[str] | None = None) -> int:
     p_lint = sub.add_parser("lint")
     p_lint.add_argument("--lesson", type=int)
     p_lint.add_argument("--strict", action="store_true")
+    p_draft = sub.add_parser("draft")
+    p_draft.add_argument("lesson_md", type=Path)
     args = parser.parse_args(argv)
+    if args.cmd == "draft":
+        data = draft(parse_lesson(args.lesson_md))
+        sys.stdout.write(yaml.safe_dump(data, allow_unicode=True, sort_keys=False, width=1000))
+        return 0
     root = Path(__file__).resolve().parent.parent
     errors, warnings = lint(root, args.lesson, args.strict)
     for w in warnings:

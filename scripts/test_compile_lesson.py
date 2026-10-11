@@ -126,3 +126,17 @@ def test_validate_script_translate_directions():
 
 def test_ar_tokens_strips_ellipsis():
     assert ar_tokens("عم بكتب…") == ["عم", "بكتب"]
+
+
+def test_draft_l01_shape():
+    from compile_lesson import draft, parse_lesson
+
+    data = draft(parse_lesson(REPO / "lessons" / "module-1" / "01-marhaba.md"))
+
+    assert len(data["lexicon"]) == 16
+    assert [s["type"] for s in data["steps"]] == ["present", "respond"] * 5
+    first_respond = data["steps"][1]
+    assert first_respond["expect"]["tr"] == "mar7abtén!"
+    assert first_respond["prompt"] == 'Reply as Daniel: Hello back! (lit. "two hellos")'
+    assert [s["id"] for s in data["steps"]] == [str(i) for i in range(1, 11)]
+    assert validate_script(data) == []
