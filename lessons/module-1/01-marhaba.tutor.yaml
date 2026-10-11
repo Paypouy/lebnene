@@ -230,7 +230,7 @@ steps:
   hint: the leaver's goodbye starts with bkh-
 - id: '9'
   type: substitute
-  prompt: 'Drill: introduce yourself with this name, then ask a man his name.'
+  prompt: 'Drill: pretend this is your name. Introduce yourself, then ask a man his name.'
   pattern: ana esmé {item}, w inta shu esmak?
   items:
   - Sami
@@ -238,6 +238,10 @@ steps:
   - Karim
   - Rana
   - Daniel
+  accept:
+  - أنا اسمي {item}، وإنت شو اسمك؟
+  - أنا اسمي {item}، إنت شو اسمك؟
+  - ana esmé {item}, inta shu esmak?
 - id: '10'
   type: respond
   prompt: 'Gender flip: ask a woman how she is.'
