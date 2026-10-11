@@ -5,7 +5,7 @@ level: A1
 title: "Ar2am — Numbers, prices, phone numbers"
 scenario: "Count to 1000, understand and say prices in LBP/USD, exchange phone numbers."
 grammar: ["numbers 3–10 + plural noun", "11+ + singular noun", "kam vs. 2addé"]
-vocab_count: 18
+vocab_count: 20
 audio: TODO
 ---
 
@@ -73,6 +73,8 @@ einundzwanzig). This is a genuine freebie for a German speaker.
 | صفر | sefer | null | zero | TODO |
 | نص | noss | halb | half | TODO |
 | كتير | ktir | viel, sehr | a lot, very | TODO |
+| معك | ma3ak/ma3ik | du hast (dabei) (m/f) | you have (on you) (m/f) | TODO |
+| جديد | jdid | neu | new | TODO |
 
 ## Drills
 1. **Number sniper:** teacher fires random numbers 1–1000 in Arabic, student writes digits. Then reverse.

@@ -5,7 +5,7 @@ level: A1
 title: "Halla2 w kell yom — Present tense (b- and 3am)"
 scenario: "Say what you do habitually vs. what you're doing right now — the engine of all small talk."
 grammar: ["b-prefix habitual: beshrab, bte7ké", "3am (+b) progressive: 3am beshrab", "negation with ma"]
-vocab_count: 15
+vocab_count: 23
 audio: TODO
 ---
 
@@ -68,6 +68,14 @@ student names person).
 | ليش | lésh | warum | why | TODO |
 | لأنّو | la2anno | weil | because | TODO |
 | عادةً | 3édatan | normalerweise | usually | TODO |
+| هوّي | huwwé | er | he | TODO |
+| هيّي | hiyyé | sie | she | TODO |
+| نحنا | ne7na | wir | we | TODO |
+| إنتو | inton | ihr | you (pl) | TODO |
+| هنّي | henné | sie (Pl.) | they | TODO |
+| امتحان | imti7an | Prüfung | exam, test | TODO |
+| مع | ma3 | mit | with | TODO |
+| الأستاذ | l-istéz | der Lehrer | the teacher | TODO |
 
 ## Drills
 1. **Conjugation snake:** one verb, around the persons, then 3am-forms, then negated. Verbs: yedros, yeshrab, yékol, yshuf.
