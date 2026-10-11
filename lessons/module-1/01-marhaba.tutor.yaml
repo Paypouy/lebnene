@@ -125,6 +125,9 @@ steps:
   - mni7 w inta kifak
   - tamém l7amdella w inta kifak
   - l7amdella w inta
+  - منيح، الحمدلله. وإنت
+  - منيح، الحمدلله
+  - الحمدلله، وإنت
   hint: mni7 = good, l7amdella = thank God, w inta kifak? = and you?
   gender_variants:
     f:
@@ -142,6 +145,10 @@ steps:
       - mni7 l7amdella w inta
       - tamém l7amdella w inta kifak
       - l7amdella w inta
+      - منيحة، الحمدلله. وإنت
+      - منيحة، الحمدلله
+      - منيح، الحمدلله. وإنت
+      - الحمدلله، وإنت
       hint: mni7a = good (f), l7amdella = thank God, w inta kifak? = and you?
 - id: '4'
   type: respond
@@ -158,6 +165,10 @@ steps:
   - esmé {any} w inta
   - ana esmé {any}
   - esmé {any}
+  - أنا اسمي {any}. وإنت؟
+  - اسمي {any}. وإنت؟
+  - أنا اسمي {any}
+  - اسمي {any}
   hint: ana esmé ... = my name is ...; w inta? = and you?
   gender_variants:
     f:

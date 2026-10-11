@@ -94,6 +94,9 @@ steps:
   - mérsi
   - yeslamo
   - shukran
+  - ميرسي
+  - يسلمو
+  - شكرا
   hint: mérsi + ktir (a lot)
 - id: '3'
   type: present
@@ -110,6 +113,7 @@ steps:
   accept:
   - 3an iznik, wén l7ammém?
   - wén l7ammém?
+  - وين الحمّام؟
   hint: 3an iznak = excuse me; wén = where; l7ammém = the bathroom
 - id: '5'
   type: present
@@ -127,6 +131,9 @@ steps:
   - mérsi
   - mérsi ktir
   - shukran
+  - ميرسي
+  - ميرسي كتير
+  - شكرا
   hint: the warm one starts with yes-
 - id: '7'
   type: respond
@@ -169,6 +176,9 @@ steps:
   - yeslamo
   - shukran
   - mérsi ktir
+  - يسلمو
+  - شكرا
+  - ميرسي كتير
 - id: '12'
   type: translate
   direction: ar-en
@@ -186,3 +196,4 @@ steps:
     tr: shukran
   accept:
   - mérsi
+  - ميرسي
