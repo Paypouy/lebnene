@@ -131,12 +131,26 @@ def test_ar_tokens_strips_ellipsis():
 def test_draft_l01_shape():
     from compile_lesson import draft, parse_lesson
 
-    data = draft(parse_lesson(REPO / "lessons" / "module-1" / "01-marhaba.md"))
+    doc = parse_lesson(REPO / "lessons" / "module-1" / "01-marhaba.md")
+    data = draft(doc)
 
-    assert len(data["lexicon"]) == 16
+    assert len(data["lexicon"]) == len(doc.vocab_rows) >= 16
     assert [s["type"] for s in data["steps"]] == ["present", "respond"] * 5
     first_respond = data["steps"][1]
     assert first_respond["expect"]["tr"] == "mar7abtén!"
     assert first_respond["prompt"] == 'Reply as Daniel: Hello back! (lit. "two hellos")'
     assert [s["id"] for s in data["steps"]] == [str(i) for i in range(1, 11)]
     assert validate_script(data) == []
+
+
+def test_lint_checks_gender_variant_arabic(tmp_path):
+    md = _lesson(tmp_path, 1, vocab_count=1, vocab=["| مرحبا | mar7aba | hallo | hello | TODO |"],
+                 dialogue=["| A | مرحبا | mar7aba | Hallo | Hello |"])
+    md.with_name("01-test.tutor.yaml").write_text(
+        "lesson: 1\nlexicon:\n  - {ar: مرحبا, tr: mar7aba, en: hello}\n"
+        "steps:\n  - {id: '1', type: present, say: {ar: مرحبا, tr: mar7aba, en: Hello},"
+        " gender_variants: {f: {say: {ar: مرحبا قلم, tr: x, en: y}}}}\n",
+        encoding="utf-8",
+    )
+    errors, _ = lint(tmp_path, None, False)
+    assert any("قلم" in e for e in errors)

@@ -166,10 +166,11 @@ def _script_path(md: Path) -> Path:
 def _script_arabic(data: dict) -> list[str]:
     out: list[str] = []
     for step in data.get("steps") or []:
-        for key in ("say", "expect"):
-            value = step.get(key) or {}
-            if value.get("ar"):
-                out.append(value["ar"])
+        for source in [step, *(step.get("gender_variants") or {}).values()]:
+            for key in ("say", "expect"):
+                value = source.get(key) or {}
+                if value.get("ar"):
+                    out.append(value["ar"])
     return out
 
 
