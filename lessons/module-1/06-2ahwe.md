@@ -5,7 +5,7 @@ level: A1
 title: "3al-2ahwé — Ordering at the café"
 scenario: "Order drinks and snacks for yourself and others, handle the waiter's questions, get the bill."
 grammar: ["baddé/baddak conjugation", "polite imperative: 3atiné, jiblé"]
-vocab_count: 18
+vocab_count: 21
 audio: TODO
 ---
 
@@ -58,6 +58,9 @@ Negation: **ma baddé** (no -sh in Lebanese).
 | باقي | bé2é | Rest(geld) | change / remainder | TODO |
 | ولّا | walla | oder (Frage) | or (in questions) | TODO |
 | إذا بتريد | iza betrid | bitte (förmlich) | please (polite) | TODO |
+| ما في | ma fi | es gibt kein | there is no | TODO |
+| طيّب | tayyeb | okay, gut | okay | TODO |
+| غلط | ghalat | falsch | wrong | TODO |
 
 ## Drills
 1. **badd- ladder:** all 8 forms on 2ahwé, then on shéy, then ma badd-.
